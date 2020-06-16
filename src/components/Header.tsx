@@ -1,6 +1,5 @@
 import * as React from "react";
-import fullSize from "./FullMark-BLACK.png";
-
+import fullSize from "./images/FullMark-BLACK.png";
 
 export default function(): JSX.Element {
   return (
