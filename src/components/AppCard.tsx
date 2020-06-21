@@ -7,17 +7,13 @@ type Props = {
   description: string,
 };
 
-const AppCard = ({title, url, description}: Props): JSX.Element => (
+const AppCard = ({title, url, description, icon}: Props): JSX.Element => (
   <a target="_blank" rel="noopener noreferrer" href={url}>
     <button
     >
       <div className="card">
         <div className="card-image">
-          {
-            // <figure className="image is-4by3">
-            //   <img src={icon} alt="App image" />
-            // </figure>
-          }
+            <img className="app-icon" src={icon} alt="App image" />
         </div>
         <div className="card-content">
           <div className="media">

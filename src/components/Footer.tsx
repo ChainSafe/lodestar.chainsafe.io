@@ -11,14 +11,14 @@ export default function(): JSX.Element {
       <div className='content has-text-centered is-small is-family-code'>
         <div>
           <a className='is-link has-text-grey'
-            href='https://www.npmjs.com/package/@chainsafe/bls-keygen-app'>
-            @chainsafe/bls-keygen-app {pkg.dependencies["@chainsafe/bls-keygen-app"]}
+            href='https://bls-keygen.com'>
+            https://bls-keygen.com
           </a>
         </div>
         <div>
           <a className='is-link has-text-grey'
-            href='https://www.npmjs.com/package/@chainsafe/simpleserialize.com'>
-            @chainsafe/simpleserialize.com {pkg.dependencies["@chainsafe/simpleserialize.com"]}
+            href='https://simpleserialize.com'>
+            https://simpleserialize.com
           </a>
         </div>
       </div>
