@@ -6,7 +6,7 @@ export default function(): JSX.Element {
   return (
     <div className='lodestar-footer'>
       <span className='content has-text-centered is-small is-family-code'>
-        Made with ❤️ by <a href='https://chainsafe.io'>ChainSafe Systems</a>
+        Made with ❤️ by <a target="_blank" rel="noopener noreferrer" href='https://chainsafe.io'>ChainSafe Systems</a>
       </span>
       <span className='content has-text-centered is-small is-family-code'>
         <span style={{float: 'right'}}>
