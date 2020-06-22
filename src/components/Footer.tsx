@@ -11,11 +11,17 @@ export default function(): JSX.Element {
       <span className='content has-text-centered is-small is-family-code'>
         <span style={{float: 'right'}}>
           <a
+            target="_blank"
+            rel="noopener noreferrer"
             href='https://github.com/ChainSafe/lodestar'>
             GitHub Monorepo
           </a>
           {" "}
-          <a href="https://ethereum.org/learn/#eth-2-0">What is Ethereum 2.0?</a>
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://ethereum.org/learn/#eth-2-0">
+            What is Ethereum 2.0?</a>
         </span>
       </span>
     </div>

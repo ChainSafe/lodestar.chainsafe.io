@@ -1,16 +1,16 @@
 import React from "react";
 
 type Props = {
-  title: string,
-  icon: string,
-  url: string,
-  description: string,
+  title: string;
+  icon: string;
+  url: string;
+  description: string;
 };
 
 const AppCard = ({title, url, description, icon}: Props): JSX.Element => (
   <div className="card">
     <div className="card-image">
-        <img className="app-icon" src={icon} alt="App image" />
+      <img className="app-icon" src={icon} alt="App image" />
     </div>
     <div className="card-content">
       <div className="media">
@@ -21,7 +21,7 @@ const AppCard = ({title, url, description, icon}: Props): JSX.Element => (
       <div className="content card-description">
         {description}
       </div>
-      <a href={url}>Try it out</a>
+      <a target="_blank" rel="noopener noreferrer" href={url}>Try it out</a>
     </div>
   </div>
 );

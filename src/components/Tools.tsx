@@ -13,7 +13,7 @@ export default class Tools extends React.Component<Props, State> {
     this.state = {};
   }
 
-  render() {
+  render(): JSX.Element {
     const items = [
       {
         title: 'BLS Keygen', 

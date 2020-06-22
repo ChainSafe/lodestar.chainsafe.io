@@ -12,7 +12,7 @@ export default function(): JSX.Element {
           alt="Lodestar icon"
         />
       </span>
-      <span className="heading-tagline">Utility apps made and used by <a href="https://chainsafe.github.io/lodestar/">Lodestar</a>, Ethereum 2.0 in Typescript.</span>
+      <span className="heading-tagline">Utility apps made and used by <a target="_blank" rel="noopener noreferrer" href="https://chainsafe.github.io/lodestar/">Lodestar</a>, Ethereum 2.0 in Typescript.</span>
     </div>
   );
 }
