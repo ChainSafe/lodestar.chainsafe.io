@@ -43,10 +43,11 @@ button {
   box-shadow: unset;
   background-color: unset;
   text-align: center;
+  margin: 1.5rem;
 }
 
 .card-image {
-  min-height: 256px;
+  min-height: 279px;
 }
 
 .card-content {
@@ -66,10 +67,15 @@ button {
 }
 
 .card-description {
-  min-height: 74px;
-  margin-bottom: 0.5rem !important;
+  min-height: 64px;
+  margin-bottom: 0rem !important;
 }
 
 .app-icon {
   padding: 13px;
+  margin-top: 1.5rem;
+}
+
+.heading-tagline {
+  float: right;
 }

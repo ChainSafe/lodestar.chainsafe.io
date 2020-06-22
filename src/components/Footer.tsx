@@ -5,7 +5,7 @@ import pkg from "../../package.json";
 export default function(): JSX.Element {
   return (
     <div className='lodestar-footer'>
-      <span className='content has-text-centered'>
+      <span className='content has-text-centered is-small is-family-code'>
         Made with ❤️ by <a href='https://chainsafe.io'>ChainSafe Systems</a>
       </span>
       <span className='content has-text-centered is-small is-family-code'>
@@ -14,6 +14,8 @@ export default function(): JSX.Element {
             href='https://github.com/ChainSafe/lodestar'>
             GitHub Monorepo
           </a>
+          {" "}
+          <a href="https://ethereum.org/learn/#eth-2-0">What is Ethereum 2.0?</a>
         </span>
       </span>
     </div>
