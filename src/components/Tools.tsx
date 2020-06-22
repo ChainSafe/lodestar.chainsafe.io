@@ -19,17 +19,17 @@ export default class Tools extends React.Component<Props, State> {
         title: 'BLS Keygen', 
         url: 'https://bls-keygen.com', 
         icon: bls,
-        description: 'Eth2 web utility for deriving children BLS keys from a master BLS key, which are then encrypted and bundled together in a downloadable format for use in Eth2 testnets.'},
+        description: 'Generate or restore a BLS master key and derive validator keys.'},
       {
         title: 'Simple Serialize', 
         url: 'https://simpleserialize.com', 
         icon: ssz,
-        description: 'Simple Serialize (SSZ) is a serialization and merkleization standard created specifically for Eth2.'},
+        description: 'Serialize and deserialize common ssz types.'},
       {
         title: 'ENR App', 
-        url: 'https://something.com', 
+        url: 'https://no-site.yet', 
         icon: enr,
-        description: 'Decodes ENR objects'},
+        description: 'Decode ENR objects'},
     ];
 
     return <>

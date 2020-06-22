@@ -4,24 +4,18 @@ import pkg from "../../package.json";
 
 export default function(): JSX.Element {
   return (
-    <footer className='footer'>
-      <div className='content has-text-centered'>
+    <div className='lodestar-footer'>
+      <span className='content has-text-centered'>
         Made with ❤️ by <a className='is-link has-text-danger is-family-code' href='https://chainsafe.io'>ChainSafe Systems</a>
-      </div>
-      <div className='content has-text-centered is-small is-family-code'>
-        <div>
+      </span>
+      <span className='content has-text-centered is-small is-family-code'>
+        <span style={{float: 'right'}}>
           <a className='is-link has-text-grey'
-            href='https://bls-keygen.com'>
-            https://bls-keygen.com
+            href='https://github.com/ChainSafe/lodestar'>
+            GitHub Monorepo
           </a>
-        </div>
-        <div>
-          <a className='is-link has-text-grey'
-            href='https://simpleserialize.com'>
-            https://simpleserialize.com
-          </a>
-        </div>
-      </div>
-    </footer>
+        </span>
+      </span>
+    </div>
   );
 }
