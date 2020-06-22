@@ -34,7 +34,7 @@ export default class Tools extends React.Component<Props, State> {
 
     return <>
       <div className="container">
-        <div className="lodestar-columns columns is-centered">
+        <div className="lodestar-columns columns is-centered is-vcentered">
           {items.map(item => (
             <AppCard title={item.title} url={item.url} description={item.description} icon={item.icon} />
           ))}
