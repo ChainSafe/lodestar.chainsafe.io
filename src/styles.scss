@@ -10,6 +10,7 @@ a {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
 
 .section {
@@ -44,6 +45,7 @@ button {
   background-color: unset;
   text-align: center;
   margin: 1.5rem;
+  margin-top: 2rem;
 }
 
 .card-image {
@@ -78,4 +80,5 @@ button {
 
 .heading-tagline {
   float: right;
+  margin-top: 1rem;
 }
