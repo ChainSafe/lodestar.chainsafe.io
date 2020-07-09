@@ -27,7 +27,7 @@ export default class Tools extends React.Component<Props, State> {
         description: 'Serialize and deserialize common ssz types.'},
       {
         title: 'ENR App', 
-        url: 'https://no-site.yet', 
+        url: 'https://chainsafe.github.io/enr-app/',
         icon: enr,
         description: 'Decode ENR objects'},
     ];
