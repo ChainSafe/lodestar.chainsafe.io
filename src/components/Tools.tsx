@@ -1,18 +1,16 @@
 import React from "react";
 import AppCard from './AppCard';
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 import bls from "./images/bls.svg";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 import ssz from "./images/ssz.svg";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
 import enr from "./images/enr.svg";
 
-type Props = {};
-type State = {};
-
-export default class Tools extends React.Component<Props, State> {
-  constructor(props: Props) {
-    super(props);
-    this.state = {};
-  }
-
+export default class Tools extends React.Component {
   render(): JSX.Element {
     const items = [
       {
