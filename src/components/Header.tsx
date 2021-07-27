@@ -1,18 +1,28 @@
 import * as React from "react";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
-import fullSize from "./images/FullMark-BLACK.png";
+import lodestarLogo from "./images/lodestar_icon_text_black.png";
 
-export default function(): JSX.Element {
+export default function (): JSX.Element {
   return (
-    <div className='section'>
+    <div className="section header">
       <img
         className="attachment-full size-full lodestar-logo"
-        src={fullSize}
+        src={lodestarLogo}
         data-recalc-dims="1"
         alt="Lodestar icon"
       />
-      <span className="heading-tagline">Utility apps made and used by <a target="_blank" rel="noopener noreferrer" href="https://chainsafe.github.io/lodestar/">Lodestar</a>, Ethereum 2.0 in Typescript.</span>
+      <span className="heading-tagline">
+        Utility apps made and used by{" "}
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://chainsafe.github.io/lodestar/"
+        >
+          Lodestar
+        </a>
+        , Ethereum 2.0 in Typescript.
+      </span>
     </div>
   );
 }
